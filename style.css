@@ -1,0 +1,56 @@
+body{
+    background-image: url('https://oir.mobi/uploads/posts/2021-03/1616523070_43-p-svetlii-fon-45.jpg');
+}
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 20vh;
+    gap: 10px;
+}
+
+input {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid blueviolet;
+    border-radius: 5px;
+    background-color: aqua;
+}
+
+button {
+    padding: 10px 10px;
+    border: 1px solid wheat;
+    border-radius: 5px;
+    background-color: goldenrod;
+    color: white;
+    cursor: pointer;
+}
+
+.result {
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid wheat;
+    border-radius: 5px;
+}
+
+.card-body {
+    background-color: aqua;
+}
+.card-delete {
+    text-decoration: none;
+    font-size: 14px;
+    border: 1px solid blueviolet;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+}
+.card-edit {
+    text-decoration: none;
+    font-size: 14px;
+    margin-left: 20px;
+    border: 1px solid blueviolet;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+}
